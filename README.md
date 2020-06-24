@@ -3,4 +3,5 @@ GoBarber é uma aplicação de agendamento para auxiliar os profissionais de ser
 
 <div align="center" style="margin: 20px;">
   
-[![The MIT License](https://img.shields.io/badge/license-MIT-ligh)
+![The MIT License](https://img.shields.io/badge/license-MIT-ligh)
+![Language](https://img.shields.io/badge/language-Typescript-ligh)
