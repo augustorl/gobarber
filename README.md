@@ -3,11 +3,11 @@
 GoBarber é uma aplicação de agendamento para auxiliar os profissionais de serviços de beleza a marcarem horário com seus respectivos clientes.
 
   
-## Prévia da Aplicação
+## Prévia da Aplicação Web
 ---
 
 <p align="center">
-  <img alt="Gif da Aplicação" src="./src/Assets/Go barber Web.gif" />
+  <img alt="Gif da Aplicação" src=https://github.com/augustorl/GoBarber/blob/master/Assets/Go%20barber%20Web.gif" />
 </p>
 
 ---
