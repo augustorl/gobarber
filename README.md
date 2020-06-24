@@ -186,7 +186,7 @@ Para esse projeto é necessário utilizarmos o **docker**. Com ele instalado exe
     yarn test
   ```
 
---
+---
 
 Feito com ♥ by augustorl, [entre em contato](https://www.linkedin.com/in/augustorl) ou [visite meu portfólio.](https://www.augustoleite.com)
 
