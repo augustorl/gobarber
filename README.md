@@ -39,10 +39,8 @@ Para copiar o projeto, utilize os comandos:
 
 ```bash
   # Clonar o repositório
-  ❯ git clone https://github.com/jerp86/gobarber-web.git
+  ❯ git clone https://github.com/augustorl/GoBarber
 
-  # Entrar no diretório
-  ❯ cd gobarber-web
 ```
 Para instalar as dependências e iniciar o projeto, você pode utilizar o Yarn ou NPM:
 
