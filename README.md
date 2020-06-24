@@ -188,5 +188,5 @@ Para esse projeto é necessário utilizarmos o **docker**. Com ele instalado exe
   ```
 
 
-Feito com ♥ by augustorl [Entre em Contato.](https://www.linkedin.com/in/augustorl)<br>
-[Visite meu portfólio.](https://www.augustoleite.com)
+Feito com ♥ by augustorl [entre em contato aqui.](https://www.linkedin.com/in/augustorl)<br>
+[visite meu portfólio aqui.](https://www.augustoleite.com)
