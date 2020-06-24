@@ -91,7 +91,7 @@ GoBarber é uma aplicação de agendamento para auxiliar os profissionais de ser
   git clone https://github.com/augustorl/GoBarber
 ```
 
-### 💻 Rodando a API
+### 📥 Rodando a API
 
 Para esse projeto é necessário utilizarmos o **docker**. Com ele instalado execute os seguintes comandos para criar os containers e inicializar as instâncias necessárias, Postgres, Mongo e Redis:
 
