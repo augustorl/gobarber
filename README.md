@@ -2,6 +2,9 @@
 
 GoBarber é uma aplicação de agendamento para auxiliar os profissionais de serviços de beleza a marcarem horário com seus respectivos clientes.
 
+
+---
+
 # Índice:
 
  🎨 [Layout](link)
@@ -14,10 +17,7 @@ GoBarber é uma aplicação de agendamento para auxiliar os profissionais de ser
  
  🐞  [Executando testes](#-executando-testes)
 
----
 
-
- 
 ## 🎨 Layout:
 
 <p align="center">
@@ -28,7 +28,6 @@ GoBarber é uma aplicação de agendamento para auxiliar os profissionais de ser
     Acessar Layout da aplicação no Figma.
    </a>
 
---
 
 ## ⚙ Tecnologias:
   - **Back end**
@@ -72,7 +71,7 @@ GoBarber é uma aplicação de agendamento para auxiliar os profissionais de ser
   - **Outras tecnologias**
     - [Docker](https://www.docker.com/)
     
---
+
 
 ## 📦️ Como utilizar o projeto:
 
@@ -116,7 +115,7 @@ Para esse projeto é necessário utilizarmos o **docker**. Com ele instalado exe
     yarn dev:server
   ```
 
--
+
 
 ### 💻 Instruções para o front end
  
@@ -152,7 +151,7 @@ Para esse projeto é necessário utilizarmos o **docker**. Com ele instalado exe
   ```
 
 
---
+
 
 
 ## 🤔️ Como contribuir
@@ -165,7 +164,7 @@ Para esse projeto é necessário utilizarmos o **docker**. Com ele instalado exe
 4. Envie sua branch:
    - `$ git push origin minha_feature`
 
---
+
 
 ## 🐞 Executando testes
   
@@ -176,7 +175,7 @@ Para esse projeto é necessário utilizarmos o **docker**. Com ele instalado exe
     yarn test
   ```
 
--
+---
 
 Feito com ♥ by augustorl, [entre em contato](https://www.linkedin.com/in/augustorl) ou [visite meu portfólio.](https://www.augustoleite.com)
 
