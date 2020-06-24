@@ -7,7 +7,7 @@ GoBarber é uma aplicação de agendamento para auxiliar os profissionais de ser
 
 # Indice
 
- 👨‍💻️ [Versão Web](link)
+ 🖥 [Versão Web](link)
 
  📱 [Versão Mobile](link)
 
