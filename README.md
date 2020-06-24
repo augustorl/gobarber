@@ -9,7 +9,7 @@ GoBarber é uma aplicação de agendamento para auxiliar os profissionais de ser
 
  🎨 [Layout](link)
 
- 📱 [Versão Mobile](link)
+ ⚙ [Tecnologias utilizadas](#-tecnologias
 
  📥 [Api](link)
 
@@ -36,6 +36,51 @@ GoBarber é uma aplicação de agendamento para auxiliar os profissionais de ser
 
 ---
 
+---
+
+## ⚙ Tecnologias
+  - **Back end**
+    - [NodeJS](https://nodejs.org/en/)
+    - [express](https://expressjs.com/pt-br/)
+    - [typescript](https://www.typescriptlang.org/)
+    - [typeorm](https://typeorm.io/)
+    - [postgres](https://www.postgresql.org/)
+    - [mongodb](https://www.mongodb.com/)
+    - [redis](https://redis.io/)
+    - [jest/ts-jest](https://jestjs.io/)
+    - [uuidv4](https://www.npmjs.com/package/uuidv4)
+    - [date-fns](https://date-fns.org/)
+    - [multer](https://www.npmjs.com/package/multer)
+    - [celebrate/joi]()
+    - [dotenv]()
+    - [class-transformer]()
+    - [rate-limiter-flexible]()
+    - [Amazon SES](https://aws.amazon.com/pt/ses/)
+    - [Amazon S3](https://aws.amazon.com/pt/s3/?sc_channel=PS&sc_campaign=acquisition_BR&sc_publisher=google&sc_medium=english_s3_b&sc_content=s3_e&sc_detail=amazon%20s3&sc_category=s3&sc_segment=89108864428&sc_matchtype=e&sc_country=BR&s_kwcid=AL!4422!3!89108864428!e!!g!!amazon%20s3&ef_id=CjwKCAjw5cL2BRASEiwAENqAPgGlCjev7lISzLorFwcq0coRS7IXGWkuVq90tELVhk8Zdli-4Kq7rBoCT34QAvD_BwE:G:s)
+
+  - **Front end**
+    - [React](https://reactjs.org/)
+    - [Typescript](https://www.typescriptlang.org/)
+    - [Axios](https://github.com/axios/axios)
+    - [Styled-components](https://styled-components.com/)
+    - [Polished](https://polished.js.org/)
+    - [React-spring](https://www.react-spring.io/)
+    - [Yup](https://www.npmjs.com/package/yup)
+    - [Date-fns](https://date-fns.org/)
+    - [React-day-picker](https://www.npmjs.com/package/react-day-picker)
+
+  - **Mobile**
+    - [React Native](https://reactnative.dev/)
+    - [React-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+    - [Unform](https://github.com/Rocketseat/unform)
+    - [Axios](https://github.com/axios/axios)
+    - [Styled-components](https://styled-components.com/)
+    - [Yup](https://www.npmjs.com/package/yup)
+
+  - **Outras tecnologias**
+    - [Docker](https://www.docker.com/)
+    
+---
 
 ## 📦️ Como utilizar o projeto
 
