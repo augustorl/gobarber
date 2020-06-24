@@ -23,7 +23,6 @@ GoBarber é uma aplicação de agendamento para auxiliar os profissionais de ser
  
 ## 🎨 Layout:
 
-### Prévia da Aplicação
 ---
 
 <p align="center">
