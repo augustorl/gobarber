@@ -1,4 +1,4 @@
-import React, { useRef, useState, useCallback } from 'react';
+import React, { useRef, useCallback } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiLogIn, FiMail, FiLock } from 'react-icons/fi';
 import { Form } from '@unform/web';
@@ -25,8 +25,6 @@ interface SignInFormData {
 const SignIn: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
 
-  const [loading, setLoading] = useState(false);
-
   const { signIn } = useAuth();
   const { addToast } = useToast();
 
@@ -48,19 +46,13 @@ const SignIn: React.FC = () => {
           abortEarly: false,
         });
 
-        setLoading(true);
-
         await signIn({
           email: data.email,
           password: data.password,
         });
 
-        setLoading(false);
-
         history.push('/dashboard');
       } catch (err) {
-        setLoading(false);
-
         if (err instanceof Yup.ValidationError) {
           const errors = getValidationErrors(err);
 
@@ -101,9 +93,7 @@ const SignIn: React.FC = () => {
               placeholder="Senha"
             />
 
-            <Button loading={loading} type="submit">
-              Entrar
-            </Button>
+            <Button type="submit">Entrar</Button>
 
             <Link to="/forgot-password">Esqueci minha senha</Link>
           </Form>
