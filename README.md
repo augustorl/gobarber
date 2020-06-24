@@ -127,7 +127,7 @@ Para esse projeto é necessário utilizarmos o **docker**. Com ele instalado exe
 
 ---
 
-## 💻 Instruções para o front end
+### 💻 Instruções para o front end
  
   Após executar o passo anterior e garantir que o back end está rodando, você poderá inicializar o front end:
 
@@ -142,7 +142,7 @@ Para esse projeto é necessário utilizarmos o **docker**. Com ele instalado exe
     yarn start
   ```
  
- ## 📱 Instruções para o App Mobile
+ ### 📱 Instruções para o App Mobile
  
   Garantindo que o back end está rodando e com um celular conectado ou emulador de sua escolha você também pode testar o App para mobile, :
 
