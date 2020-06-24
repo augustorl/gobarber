@@ -32,7 +32,7 @@ GoBarber é uma aplicação de agendamento para auxiliar os profissionais de ser
    </a>
 
 
----
+
 
 ## ⚙ Tecnologias:
   - **Back end**
@@ -78,7 +78,7 @@ GoBarber é uma aplicação de agendamento para auxiliar os profissionais de ser
     
 
 
----
+
 
 ## 📦️ Como utilizar o projeto:
 
@@ -162,7 +162,7 @@ Para esse projeto é necessário utilizarmos o **docker**. Com ele instalado exe
 
 
 
----
+
 
 ## 🤔️ Como contribuir
 
@@ -176,7 +176,7 @@ Para esse projeto é necessário utilizarmos o **docker**. Com ele instalado exe
 
 
 
----
+
 
 ## 🐞 Executando testes
   
