@@ -188,4 +188,4 @@ Para esse projeto é necessário utilizarmos o **docker**. Com ele instalado exe
   ```
 
 
-Feito com hearts by augustorl wave Entre em contato.
+Feito com ♥ by augustorl :wave: [Visite meu portfólio](https://www.augustoleite.com)
