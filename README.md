@@ -188,4 +188,5 @@ Para esse projeto é necessário utilizarmos o **docker**. Com ele instalado exe
   ```
 
 
-Feito com ♥ by augustorl :wave: [Visite meu portfólio](https://www.augustoleite.com)
+Feito com ♥ by augustorl [Entre em Contato.](https://www.linkedin.com/in/augustorl)
+[Visite meu portfólio.](https://www.augustoleite.com)
