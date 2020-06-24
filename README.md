@@ -27,8 +27,8 @@ GoBarber é uma aplicação de agendamento para auxiliar os profissionais de ser
 ---
 
 <p align="center">
+  <img widht="325" height="325" alt="Gif da Aplicação" src="Assets/cellphone.png" />
   <img alt="Gif da Aplicação" src="Assets/Go barber Web.gif" />
-  <img widht="250" height="250" alt="Gif da Aplicação" src="Assets/cellphone.png" />
 </p>
 
 ---
