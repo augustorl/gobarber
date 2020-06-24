@@ -29,11 +29,10 @@ GoBarber é uma aplicação de agendamento para auxiliar os profissionais de ser
 <p align="center">
   <img widht="300" height="300" alt="Gif da Aplicação" src="Assets/cellphone.png" />
   <img alt="Gif da Aplicação" src="Assets/Go barber Web.gif" />
- 
-   <a href="https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber?node-id=23%3A183">
-   Layout da aplicação
-   </a>
 </p>
+   <a href="https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber?node-id=23%3A183">
+    Acessar Layout da aplicação no figma
+   </a>
 
 ---
 
