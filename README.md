@@ -54,7 +54,7 @@ GoBarber é uma aplicação de agendamento para auxiliar os profissionais de ser
     - [Amazon SES](https://aws.amazon.com/pt/ses/)
     - [Amazon S3](https://aws.amazon.com/pt/s3/?sc_channel=PS&sc_campaign=acquisition_BR&sc_publisher=google&sc_medium=english_s3_b&sc_content=s3_e&sc_detail=amazon%20s3&sc_category=s3&sc_segment=89108864428&sc_matchtype=e&sc_country=BR&s_kwcid=AL!4422!3!89108864428!e!!g!!amazon%20s3&ef_id=CjwKCAjw5cL2BRASEiwAENqAPgGlCjev7lISzLorFwcq0coRS7IXGWkuVq90tELVhk8Zdli-4Kq7rBoCT34QAvD_BwE:G:s)
 
-  - **Front end**
+  - **Web**
     - [React](https://reactjs.org/)
     - [Typescript](https://www.typescriptlang.org/)
     - [Axios](https://github.com/axios/axios)
@@ -87,6 +87,7 @@ GoBarber é uma aplicação de agendamento para auxiliar os profissionais de ser
   # Clonando repositório
   git clone https://github.com/augustorl/GoBarber
 ```
+
 
 ### 📥 Rodando a API
 
@@ -124,7 +125,7 @@ Para esse projeto é necessário utilizarmos o **docker**. Com ele instalado exe
 
 
 
-### 💻 Instruções para o front end
+### 💻 Instruções para a versão Web:
  
   Após executar o passo anterior e garantir que o back end está rodando, você poderá inicializar o front end:
 
@@ -139,7 +140,7 @@ Para esse projeto é necessário utilizarmos o **docker**. Com ele instalado exe
     yarn start
   ```
  
- ### 📱 Instruções para o App Mobile
+ ### 📱 Instruções para a versão Mobile:
  
   Garantindo que o back end está rodando e com um celular conectado ou emulador de sua escolha você também pode testar o App para mobile, :
 
