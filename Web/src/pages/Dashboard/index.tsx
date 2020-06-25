@@ -86,7 +86,6 @@ const Dashboard: React.FC = () => {
           };
         });
 
-        console.log(appointmentsFormatted);
         setAppointments(appointmentsFormatted);
       });
   }, [selectedDate]);
@@ -130,6 +129,8 @@ const Dashboard: React.FC = () => {
       isAfter(parseISO(appointment.date), new Date()),
     );
   }, [appointments]);
+
+  console.log(appointments);
   return (
     <Container>
       <Header>
