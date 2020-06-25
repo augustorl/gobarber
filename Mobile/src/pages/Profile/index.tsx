@@ -14,6 +14,7 @@ import { Form } from '@unform/mobile';
 import { FormHandles } from '@unform/core';
 import * as Yup from 'yup';
 import Icon from 'react-native-vector-icons/Feather';
+import ImageEditor from '@react-native-community/image-editor';
 import { useAuth } from '../../hooks/Auth';
 import api from '../../services/api';
 import Input from '../../components/Input';
