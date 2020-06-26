@@ -1,16 +1,25 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var tsyringe_1 = require("tsyringe");
-require("@modules/users/providers");
+
+var _tsyringe = require("tsyringe");
+
+require("../../modules/users/providers");
+
 require("./providers");
-var AppointmentsRepository_1 = __importDefault(require("@modules/appointments/infra/typeorm/repositories/AppointmentsRepository"));
-var UsersRepository_1 = __importDefault(require("@modules/users/infra/typeorm/repositories/UsersRepository"));
-var UserTokensRepository_1 = __importDefault(require("@modules/users/infra/typeorm/repositories/UserTokensRepository"));
-var NotificationsRepository_1 = __importDefault(require("@modules/notifications/infra/typeorm/repositories/NotificationsRepository"));
-tsyringe_1.container.registerSingleton('AppointmentsRepository', AppointmentsRepository_1.default);
-tsyringe_1.container.registerSingleton('UsersRepository', UsersRepository_1.default);
-tsyringe_1.container.registerSingleton('UserTokensRepository', UserTokensRepository_1.default);
-tsyringe_1.container.registerSingleton('NotificationsRepository', NotificationsRepository_1.default);
+
+var _AppointmentsRepository = _interopRequireDefault(require("../../modules/appointments/infra/typeorm/repositories/AppointmentsRepository"));
+
+var _UsersRepository = _interopRequireDefault(require("../../modules/users/infra/typeorm/repositories/UsersRepository"));
+
+var _UserTokensRepository = _interopRequireDefault(require("../../modules/users/infra/typeorm/repositories/UserTokensRepository"));
+
+var _NotificationsRepository = _interopRequireDefault(require("../../modules/notifications/infra/typeorm/repositories/NotificationsRepository"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+_tsyringe.container.registerSingleton('AppointmentsRepository', _AppointmentsRepository.default);
+
+_tsyringe.container.registerSingleton('UsersRepository', _UsersRepository.default);
+
+_tsyringe.container.registerSingleton('UserTokensRepository', _UserTokensRepository.default);
+
+_tsyringe.container.registerSingleton('NotificationsRepository', _NotificationsRepository.default);

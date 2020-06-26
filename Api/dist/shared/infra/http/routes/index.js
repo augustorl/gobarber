@@ -1,20 +1,32 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var express_1 = require("express");
-var appointments_routes_1 = __importDefault(require("@modules/appointments/infra/http/routes/appointments.routes"));
-var providers_routes_1 = __importDefault(require("@modules/appointments/infra/http/routes/providers.routes"));
-var user_routes_1 = __importDefault(require("@modules/users/infra/http/routes/user.routes"));
-var sessions_routes_1 = __importDefault(require("@modules/users/infra/http/routes/sessions.routes"));
-var password_routes_1 = __importDefault(require("@modules/users/infra/http/routes/password.routes"));
-var profile_routes_1 = __importDefault(require("@modules/users/infra/http/routes/profile.routes"));
-var routes = express_1.Router();
-routes.use('/appointments', appointments_routes_1.default);
-routes.use('/users', user_routes_1.default);
-routes.use('/sessions', sessions_routes_1.default);
-routes.use('/password', password_routes_1.default);
-routes.use('/profile', profile_routes_1.default);
-routes.use('/providers', providers_routes_1.default);
-exports.default = routes;
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _express = require("express");
+
+var _appointments = _interopRequireDefault(require("../../../../modules/appointments/infra/http/routes/appointments.routes"));
+
+var _providers = _interopRequireDefault(require("../../../../modules/appointments/infra/http/routes/providers.routes"));
+
+var _user = _interopRequireDefault(require("../../../../modules/users/infra/http/routes/user.routes"));
+
+var _sessions = _interopRequireDefault(require("../../../../modules/users/infra/http/routes/sessions.routes"));
+
+var _password = _interopRequireDefault(require("../../../../modules/users/infra/http/routes/password.routes"));
+
+var _profile = _interopRequireDefault(require("../../../../modules/users/infra/http/routes/profile.routes"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+const routes = (0, _express.Router)();
+routes.use('/appointments', _appointments.default);
+routes.use('/users', _user.default);
+routes.use('/sessions', _sessions.default);
+routes.use('/password', _password.default);
+routes.use('/profile', _profile.default);
+routes.use('/providers', _providers.default);
+var _default = routes;
+exports.default = _default;

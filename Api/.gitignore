@@ -9,6 +9,6 @@ temp/
 coverage
 ormconfig.json
 build/
-
+dist/
 tmp/*
 !tmp/.gitkeep
