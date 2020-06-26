@@ -25,7 +25,7 @@ class S3StorageProvider implements IStorageProvider {
     const fileContent = await fs.promises.readFile(originalPath);
 
     await this.client
-      .outObject({
+      .putObject({
         Bucket: uploadConfig.config.aws.bucket,
         Key: 'file',
         ACL: 'public-read',

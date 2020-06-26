@@ -65,7 +65,7 @@ var S3StorageProvider = /** @class */ (function () {
                     case 1:
                         fileContent = _a.sent();
                         return [4 /*yield*/, this.client
-                                .outObject({
+                                .putObject({
                                 Bucket: upload_1.default.config.aws.bucket,
                                 Key: 'file',
                                 ACL: 'public-read',
