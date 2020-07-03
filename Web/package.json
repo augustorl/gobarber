@@ -31,7 +31,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "test:coverage": "yarn test --coverage --watchAll false"
